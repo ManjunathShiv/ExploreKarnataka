@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1913075023D5806800B037A1 /* DistrictDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913074F23D5806800B037A1 /* DistrictDetail.swift */; };
+		1913075423D581F000B037A1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913075223D581F000B037A1 /* CircleImage.swift */; };
+		1913075523D581F000B037A1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913075323D581F000B037A1 /* MapView.swift */; };
+		193CDDFC239771A400CF135E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193CDDFB239771A400CF135E /* Constants.swift */; };
+		193CDDFE2397943600CF135E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193CDDFD2397943600CF135E /* SearchBar.swift */; };
+		1960404523713FEA00A5CE62 /* KarnatakaDistricts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1960404423713FEA00A5CE62 /* KarnatakaDistricts.json */; };
+		1982311024B7210A00E3E51D /* DictrictAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1982310F24B7210A00E3E51D /* DictrictAbout.swift */; };
+		19ABD37223D58E7600E1B378 /* MyDistricts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABD37123D58E7600E1B378 /* MyDistricts.swift */; };
+		19EC2F9A2362B00D00880AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EC2F992362B00D00880AE9 /* AppDelegate.swift */; };
+		19EC2F9C2362B00D00880AE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EC2F9B2362B00D00880AE9 /* SceneDelegate.swift */; };
+		19EC2F9F2362B00D00880AE9 /* KarnatakaTourism.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19EC2F9D2362B00D00880AE9 /* KarnatakaTourism.xcdatamodeld */; };
+		19EC2FA12362B00D00880AE9 /* DistrictList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EC2FA02362B00D00880AE9 /* DistrictList.swift */; };
+		19EC2FA32362B00E00880AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19EC2FA22362B00E00880AE9 /* Assets.xcassets */; };
+		19EC2FA62362B00E00880AE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19EC2FA52362B00E00880AE9 /* Preview Assets.xcassets */; };
+		19EC2FA92362B00E00880AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19EC2FA72362B00E00880AE9 /* LaunchScreen.storyboard */; };
+		19EC2FB42362B00F00880AE9 /* KarnatakaTourismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EC2FB32362B00F00880AE9 /* KarnatakaTourismTests.swift */; };
+		19EC2FBF2362B00F00880AE9 /* KarnatakaTourismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EC2FBE2362B00F00880AE9 /* KarnatakaTourismUITests.swift */; };
+		19F0518A2371788A00D410BA /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F051892371788A00D410BA /* District.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19EC2FB02362B00F00880AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EC2F8E2362B00D00880AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19EC2F952362B00D00880AE9;
+			remoteInfo = KarnatakaTourism;
+		};
+		19EC2FBB2362B00F00880AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EC2F8E2362B00D00880AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19EC2F952362B00D00880AE9;
+			remoteInfo = KarnatakaTourism;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1913074F23D5806800B037A1 /* DistrictDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictDetail.swift; sourceTree = "<group>"; };
+		1913075223D581F000B037A1 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1913075323D581F000B037A1 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		193CDDFB239771A400CF135E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		193CDDFD2397943600CF135E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		1960404423713FEA00A5CE62 /* KarnatakaDistricts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KarnatakaDistricts.json; sourceTree = "<group>"; };
+		1982310F24B7210A00E3E51D /* DictrictAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictrictAbout.swift; sourceTree = "<group>"; };
+		19ABD37123D58E7600E1B378 /* MyDistricts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDistricts.swift; sourceTree = "<group>"; };
+		19EC2F962362B00D00880AE9 /* KarnatakaTourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarnatakaTourism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EC2F992362B00D00880AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19EC2F9B2362B00D00880AE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19EC2F9E2362B00D00880AE9 /* KarnatakaTourism.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KarnatakaTourism.xcdatamodel; sourceTree = "<group>"; };
+		19EC2FA02362B00D00880AE9 /* DistrictList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictList.swift; sourceTree = "<group>"; };
+		19EC2FA22362B00E00880AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19EC2FA52362B00E00880AE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19EC2FA82362B00E00880AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19EC2FAA2362B00E00880AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EC2FAF2362B00F00880AE9 /* KarnatakaTourismTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarnatakaTourismTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EC2FB32362B00F00880AE9 /* KarnatakaTourismTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarnatakaTourismTests.swift; sourceTree = "<group>"; };
+		19EC2FB52362B00F00880AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EC2FBA2362B00F00880AE9 /* KarnatakaTourismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarnatakaTourismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EC2FBE2362B00F00880AE9 /* KarnatakaTourismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarnatakaTourismUITests.swift; sourceTree = "<group>"; };
+		19EC2FC02362B00F00880AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F051892371788A00D410BA /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19EC2F932362B00D00880AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EC2FAC2362B00F00880AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EC2FB72362B00F00880AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1913075123D581E000B037A1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				193CDDFD2397943600CF135E /* SearchBar.swift */,
+				1913075223D581F000B037A1 /* CircleImage.swift */,
+				1913075323D581F000B037A1 /* MapView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		19ABD37023D58BDB00E1B378 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19F051892371788A00D410BA /* District.swift */,
+				19ABD37123D58E7600E1B378 /* MyDistricts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19EC2F8D2362B00D00880AE9 = {
+			isa = PBXGroup;
+			children = (
+				19EC2F982362B00D00880AE9 /* KarnatakaTourism */,
+				19EC2FB22362B00F00880AE9 /* KarnatakaTourismTests */,
+				19EC2FBD2362B00F00880AE9 /* KarnatakaTourismUITests */,
+				19EC2F972362B00D00880AE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19EC2F972362B00D00880AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19EC2F962362B00D00880AE9 /* KarnatakaTourism.app */,
+				19EC2FAF2362B00F00880AE9 /* KarnatakaTourismTests.xctest */,
+				19EC2FBA2362B00F00880AE9 /* KarnatakaTourismUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19EC2F982362B00D00880AE9 /* KarnatakaTourism */ = {
+			isa = PBXGroup;
+			children = (
+				19EC2F992362B00D00880AE9 /* AppDelegate.swift */,
+				19EC2F9B2362B00D00880AE9 /* SceneDelegate.swift */,
+				19EC2FA02362B00D00880AE9 /* DistrictList.swift */,
+				1913074F23D5806800B037A1 /* DistrictDetail.swift */,
+				1982310F24B7210A00E3E51D /* DictrictAbout.swift */,
+				193CDDFB239771A400CF135E /* Constants.swift */,
+				19ABD37023D58BDB00E1B378 /* Model */,
+				1913075123D581E000B037A1 /* Utility */,
+				19EC2FA22362B00E00880AE9 /* Assets.xcassets */,
+				19EC2FA72362B00E00880AE9 /* LaunchScreen.storyboard */,
+				19EC2FAA2362B00E00880AE9 /* Info.plist */,
+				19EC2F9D2362B00D00880AE9 /* KarnatakaTourism.xcdatamodeld */,
+				1960404423713FEA00A5CE62 /* KarnatakaDistricts.json */,
+				19EC2FA42362B00E00880AE9 /* Preview Content */,
+			);
+			path = KarnatakaTourism;
+			sourceTree = "<group>";
+		};
+		19EC2FA42362B00E00880AE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19EC2FA52362B00E00880AE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19EC2FB22362B00F00880AE9 /* KarnatakaTourismTests */ = {
+			isa = PBXGroup;
+			children = (
+				19EC2FB32362B00F00880AE9 /* KarnatakaTourismTests.swift */,
+				19EC2FB52362B00F00880AE9 /* Info.plist */,
+			);
+			path = KarnatakaTourismTests;
+			sourceTree = "<group>";
+		};
+		19EC2FBD2362B00F00880AE9 /* KarnatakaTourismUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19EC2FBE2362B00F00880AE9 /* KarnatakaTourismUITests.swift */,
+				19EC2FC02362B00F00880AE9 /* Info.plist */,
+			);
+			path = KarnatakaTourismUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19EC2F952362B00D00880AE9 /* KarnatakaTourism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EC2FC32362B00F00880AE9 /* Build configuration list for PBXNativeTarget "KarnatakaTourism" */;
+			buildPhases = (
+				19EC2F922362B00D00880AE9 /* Sources */,
+				19EC2F932362B00D00880AE9 /* Frameworks */,
+				19EC2F942362B00D00880AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KarnatakaTourism;
+			productName = KarnatakaTourism;
+			productReference = 19EC2F962362B00D00880AE9 /* KarnatakaTourism.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19EC2FAE2362B00F00880AE9 /* KarnatakaTourismTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EC2FC62362B00F00880AE9 /* Build configuration list for PBXNativeTarget "KarnatakaTourismTests" */;
+			buildPhases = (
+				19EC2FAB2362B00F00880AE9 /* Sources */,
+				19EC2FAC2362B00F00880AE9 /* Frameworks */,
+				19EC2FAD2362B00F00880AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19EC2FB12362B00F00880AE9 /* PBXTargetDependency */,
+			);
+			name = KarnatakaTourismTests;
+			productName = KarnatakaTourismTests;
+			productReference = 19EC2FAF2362B00F00880AE9 /* KarnatakaTourismTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19EC2FB92362B00F00880AE9 /* KarnatakaTourismUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EC2FC92362B00F00880AE9 /* Build configuration list for PBXNativeTarget "KarnatakaTourismUITests" */;
+			buildPhases = (
+				19EC2FB62362B00F00880AE9 /* Sources */,
+				19EC2FB72362B00F00880AE9 /* Frameworks */,
+				19EC2FB82362B00F00880AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19EC2FBC2362B00F00880AE9 /* PBXTargetDependency */,
+			);
+			name = KarnatakaTourismUITests;
+			productName = KarnatakaTourismUITests;
+			productReference = 19EC2FBA2362B00F00880AE9 /* KarnatakaTourismUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19EC2F8E2362B00D00880AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Manjunath Shivakumara";
+				TargetAttributes = {
+					19EC2F952362B00D00880AE9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					19EC2FAE2362B00F00880AE9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 19EC2F952362B00D00880AE9;
+					};
+					19EC2FB92362B00F00880AE9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 19EC2F952362B00D00880AE9;
+					};
+				};
+			};
+			buildConfigurationList = 19EC2F912362B00D00880AE9 /* Build configuration list for PBXProject "KarnatakaTourism" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19EC2F8D2362B00D00880AE9;
+			productRefGroup = 19EC2F972362B00D00880AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19EC2F952362B00D00880AE9 /* KarnatakaTourism */,
+				19EC2FAE2362B00F00880AE9 /* KarnatakaTourismTests */,
+				19EC2FB92362B00F00880AE9 /* KarnatakaTourismUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19EC2F942362B00D00880AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EC2FA92362B00E00880AE9 /* LaunchScreen.storyboard in Resources */,
+				19EC2FA62362B00E00880AE9 /* Preview Assets.xcassets in Resources */,
+				1960404523713FEA00A5CE62 /* KarnatakaDistricts.json in Resources */,
+				19EC2FA32362B00E00880AE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EC2FAD2362B00F00880AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EC2FB82362B00F00880AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19EC2F922362B00D00880AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193CDDFE2397943600CF135E /* SearchBar.swift in Sources */,
+				19EC2F9A2362B00D00880AE9 /* AppDelegate.swift in Sources */,
+				19F0518A2371788A00D410BA /* District.swift in Sources */,
+				19EC2F9C2362B00D00880AE9 /* SceneDelegate.swift in Sources */,
+				1913075023D5806800B037A1 /* DistrictDetail.swift in Sources */,
+				19ABD37223D58E7600E1B378 /* MyDistricts.swift in Sources */,
+				1913075423D581F000B037A1 /* CircleImage.swift in Sources */,
+				19EC2FA12362B00D00880AE9 /* DistrictList.swift in Sources */,
+				1913075523D581F000B037A1 /* MapView.swift in Sources */,
+				19EC2F9F2362B00D00880AE9 /* KarnatakaTourism.xcdatamodeld in Sources */,
+				193CDDFC239771A400CF135E /* Constants.swift in Sources */,
+				1982311024B7210A00E3E51D /* DictrictAbout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EC2FAB2362B00F00880AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EC2FB42362B00F00880AE9 /* KarnatakaTourismTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EC2FB62362B00F00880AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EC2FBF2362B00F00880AE9 /* KarnatakaTourismUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19EC2FB12362B00F00880AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19EC2F952362B00D00880AE9 /* KarnatakaTourism */;
+			targetProxy = 19EC2FB02362B00F00880AE9 /* PBXContainerItemProxy */;
+		};
+		19EC2FBC2362B00F00880AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19EC2F952362B00D00880AE9 /* KarnatakaTourism */;
+			targetProxy = 19EC2FBB2362B00F00880AE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19EC2FA72362B00E00880AE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19EC2FA82362B00E00880AE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19EC2FC12362B00F00880AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19EC2FC22362B00F00880AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19EC2FC42362B00F00880AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KarnatakaTourism/Preview Content\"";
+				DEVELOPMENT_TEAM = M7Z472QC38;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KarnatakaTourism/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kstdc.KarnatakaTourism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19EC2FC52362B00F00880AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KarnatakaTourism/Preview Content\"";
+				DEVELOPMENT_TEAM = M7Z472QC38;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KarnatakaTourism/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kstdc.KarnatakaTourism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19EC2FC72362B00F00880AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7Z472QC38;
+				INFOPLIST_FILE = KarnatakaTourismTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kstdc.KarnatakaTourismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarnatakaTourism.app/KarnatakaTourism";
+			};
+			name = Debug;
+		};
+		19EC2FC82362B00F00880AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7Z472QC38;
+				INFOPLIST_FILE = KarnatakaTourismTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kstdc.KarnatakaTourismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarnatakaTourism.app/KarnatakaTourism";
+			};
+			name = Release;
+		};
+		19EC2FCA2362B00F00880AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7Z472QC38;
+				INFOPLIST_FILE = KarnatakaTourismUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kstdc.KarnatakaTourismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KarnatakaTourism;
+			};
+			name = Debug;
+		};
+		19EC2FCB2362B00F00880AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7Z472QC38;
+				INFOPLIST_FILE = KarnatakaTourismUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kstdc.KarnatakaTourismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KarnatakaTourism;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19EC2F912362B00D00880AE9 /* Build configuration list for PBXProject "KarnatakaTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EC2FC12362B00F00880AE9 /* Debug */,
+				19EC2FC22362B00F00880AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19EC2FC32362B00F00880AE9 /* Build configuration list for PBXNativeTarget "KarnatakaTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EC2FC42362B00F00880AE9 /* Debug */,
+				19EC2FC52362B00F00880AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19EC2FC62362B00F00880AE9 /* Build configuration list for PBXNativeTarget "KarnatakaTourismTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EC2FC72362B00F00880AE9 /* Debug */,
+				19EC2FC82362B00F00880AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19EC2FC92362B00F00880AE9 /* Build configuration list for PBXNativeTarget "KarnatakaTourismUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EC2FCA2362B00F00880AE9 /* Debug */,
+				19EC2FCB2362B00F00880AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19EC2F9D2362B00D00880AE9 /* KarnatakaTourism.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19EC2F9E2362B00D00880AE9 /* KarnatakaTourism.xcdatamodel */,
+			);
+			currentVersion = 19EC2F9E2362B00D00880AE9 /* KarnatakaTourism.xcdatamodel */;
+			path = KarnatakaTourism.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19EC2F8E2362B00D00880AE9 /* Project object */;
+}

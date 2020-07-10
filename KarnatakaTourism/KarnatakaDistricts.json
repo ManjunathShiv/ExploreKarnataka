@@ -1,0 +1,422 @@
+[
+    {
+        "id" : 1,
+        "name" : "Bagalkot",
+        "population" : 1889752,
+        "sexratio" : 989,
+        "literacy" : 68.82,
+        "populationdensity"  : 288,
+        "established" : "15 August 1997",
+        "imagename" : "Karnataka_Bagalkot.svg",
+        "coordinates": {
+            "longitude": 75.6615,
+            "latitude": 16.1691
+        }
+    },
+    {
+        "id" : 2,
+        "name" : "Bengaluru Urban",
+        "population" : 9621551,
+        "sexratio" : 916,
+        "literacy" : 87.67,
+        "populationdensity"  : 4381,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_BangaloreUrban.svg",
+        "coordinates": {
+            "longitude": 77.6536,
+            "latitude": 12.9700
+        }
+    },
+    {
+        "id" : 3,
+        "name" : "Bengaluru Rural",
+        "population" : 990923,
+        "sexratio" : 946,
+        "literacy" : 77.93,
+        "populationdensity"  : 431,
+        "established" : "15 August 1986",
+        "imagename" : "Karnataka_BangaloreRural.svg",
+        "coordinates": {
+            "longitude": 77.6078,
+            "latitude": 13.2847
+        }
+    },
+    {
+        "id" : 4,
+        "name" : "Belagavi",
+        "population" : 4779661,
+        "sexratio" : 973,
+        "literacy" : 73.48,
+        "populationdensity"  : 356,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Belagavi.svg",
+        "coordinates": {
+            "longitude": 74.4977,
+            "latitude": 15.8497
+        }
+    },
+    {
+        "id" : 5,
+        "name" : "Ballari",
+        "population" : 2452595,
+        "sexratio" : 983,
+        "literacy" : 67.43,
+        "populationdensity"  : 290,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Ballari.svg",
+        "coordinates": {
+            "longitude": 76.9214,
+            "latitude": 15.1394
+        }
+    },
+    {
+        "id" : 6,
+        "name" : "Bidar",
+        "population" : 1703300,
+        "sexratio" : 956,
+        "literacy" : 70.51,
+        "populationdensity"  : 313,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Bidar.svg",
+        "coordinates": {
+            "longitude": 77.5199,
+            "latitude": 17.9104
+        }
+    },
+    {
+        "id" : 7,
+        "name" : "Vijayapur",
+        "population" : 2177331,
+        "sexratio" : 960,
+        "literacy" : 67.15,
+        "populationdensity"  : 207,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Vijayapur.svg",
+        "coordinates": {
+            "longitude": 75.7100,
+            "latitude": 16.8302
+        }
+    },
+    {
+        "id" : 8,
+        "name" : "Chamarajanagar",
+        "population" : 1020791,
+        "sexratio" : 993,
+        "literacy" : 61.43,
+        "populationdensity"  : 181,
+        "established" : "15 August 1997",
+        "imagename" : "Karnataka_Chamarajanagar.svg",
+        "coordinates": {
+            "longitude": 77.2865,
+            "latitude": 12.0526
+        }
+    },
+    {
+        "id" : 9,
+        "name" : "Chikballapur",
+        "population" : 1255104,
+        "sexratio" : 972,
+        "literacy" : 69.76,
+        "populationdensity"  : 296,
+        "established" : "10 September 2007",
+        "imagename" : "Karnataka_Chikballapur.svg",
+        "coordinates": {
+            "longitude": 77.7315,
+            "latitude": 13.4355
+        }
+    },
+    {
+        "id" : 10,
+        "name" : "Chikkamagaluru",
+        "population" : 1137961,
+        "sexratio" : 1008,
+        "literacy" : 79.25,
+        "populationdensity"  : 158,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Chikkamagaluru.svg",
+        "coordinates": {
+            "longitude": 75.7720,
+            "latitude": 13.3161
+        }
+    },
+    {
+        "id" : 11,
+        "name" : "Chitradurga",
+        "population" : 1659456,
+        "sexratio" : 974,
+        "literacy" : 73.71,
+        "populationdensity"  : 197,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Chitradurga.svg",
+        "coordinates": {
+            "longitude": 76.3980,
+            "latitude": 14.2251
+        }
+    },
+    {
+        "id" : 12,
+        "name" : "Dakshina Kannada",
+        "population" : 2089649,
+        "sexratio" : 1020,
+        "literacy" : 88.57,
+        "populationdensity"  : 430,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_DakshinaKannada.svg",
+        "coordinates": {
+            "longitude": 75.2479,
+            "latitude": 12.8438
+        }
+    },
+    {
+        "id" : 13,
+        "name" : "Davanagere",
+        "population" : 1945497,
+        "sexratio" : 972,
+        "literacy" : 75.74,
+        "populationdensity"  : 328,
+        "established" : "15 August 1997",
+        "imagename" : "Karnataka_Davanagere.svg",
+        "coordinates": {
+            "longitude": 75.9218,
+            "latitude": 14.4644
+        }
+    },
+    {
+        "id" : 14,
+        "name" : "Dharwad",
+        "population" : 1847023,
+        "sexratio" : 971,
+        "literacy" : 80.00,
+        "populationdensity"  : 434,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Dharwad.svg",
+        "coordinates": {
+            "longitude": 75.0078,
+            "latitude": 15.4589
+        }
+    },
+    {
+        "id" : 15,
+        "name" : "Gadag",
+        "population" : 1064570,
+        "sexratio" : 982,
+        "literacy" : 75.12,
+        "populationdensity"  : 229,
+        "established" : "24 August 1997",
+        "imagename" : "Karnataka_Gadag.svg",
+        "coordinates": {
+            "longitude": 75.6355,
+            "latitude": 15.4315
+        }
+    },
+    {
+        "id" : 16,
+        "name" : "Kalaburagi",
+        "population" : 2566326,
+        "sexratio" : 971,
+        "literacy" : 64.85,
+        "populationdensity"  : 234,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Kalaburagi.svg",
+        "coordinates": {
+            "longitude": 76.8343,
+            "latitude": 17.3297
+        }
+    },
+    {
+        "id" : 17,
+        "name" : "Hassan",
+        "population" : 1776421,
+        "sexratio" : 1010,
+        "literacy" : 76.07,
+        "populationdensity"  : 261,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Hassan.svg",
+        "coordinates": {
+            "longitude": 76.1004,
+            "latitude": 13.0033
+        }
+    },
+    {
+        "id" : 18,
+        "name" : "Haveri",
+        "population" : 1597668,
+        "sexratio" : 950,
+        "literacy" : 77.40,
+        "populationdensity"  : 331,
+        "established" : "24 August 1997",
+        "imagename" : "Karnataka_Haveri.svg",
+        "coordinates": {
+            "longitude": 75.3991,
+            "latitude": 14.7951
+        }
+    },
+    {
+        "id" : 19,
+        "name" : "Kodagu",
+        "population" : 554519,
+        "sexratio" : 1019,
+        "literacy" : 82.61,
+        "populationdensity"  : 135,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Kodagu.svg",
+        "coordinates": {
+            "longitude": 75.8069,
+            "latitude": 12.3375
+        }
+    },
+    {
+        "id" : 20,
+        "name" : "Kolar",
+        "population" : 1536401,
+        "sexratio" : 979,
+        "literacy" : 74.39,
+        "populationdensity"  : 135,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Kolar.svg",
+        "coordinates": {
+            "longitude": 78.1291,
+            "latitude": 13.1362
+        }
+    },
+    {
+        "id" : 21,
+        "name" : "Koppal",
+        "population" : 1389920,
+        "sexratio" : 986,
+        "literacy" : 68.09,
+        "populationdensity"  : 250,
+        "established" : "24 August 1997",
+        "imagename" : "Karnataka_Koppal.svg",
+        "coordinates": {
+            "longitude": 76.1784,
+            "latitude": 15.6219
+        }
+    },
+    {
+        "id" : 22,
+        "name" : "Mandya",
+        "population" : 1805769,
+        "sexratio" : 995,
+        "literacy" : 70.40,
+        "populationdensity"  : 364,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Mandya.svg",
+        "coordinates": {
+            "longitude": 76.8951,
+            "latitude": 12.5218
+        }
+    },
+    {
+        "id" : 23,
+        "name" : "Mysuru",
+        "population" : 3001127,
+        "sexratio" : 985,
+        "literacy" : 72.79,
+        "populationdensity"  : 476,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Mysuru.svg",
+        "coordinates": {
+            "longitude": 76.6394,
+            "latitude": 12.2958
+        }
+    },
+    {
+        "id" : 24,
+        "name" : "Raichur",
+        "population" : 1928812,
+        "sexratio" : 1000,
+        "literacy" : 59.56,
+        "populationdensity"  : 228,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Raichur.svg",
+        "coordinates": {
+            "longitude": 77.3463,
+            "latitude": 16.2076
+        }
+    },
+    {
+        "id" : 25,
+        "name" : "Ramanagara",
+        "population" : 1082636,
+        "sexratio" : 976,
+        "literacy" : 69.22,
+        "populationdensity"  : 308,
+        "established" : "10 September 2007",
+        "imagename" : "Karnataka_Ramanagara.svg",
+        "coordinates": {
+            "longitude": 77.2799,
+            "latitude": 12.7209
+        }
+    },
+    {
+        "id" : 26,
+        "name" : "Shivamogga",
+        "population" : 1752753,
+        "sexratio" : 998,
+        "literacy" : 80.45,
+        "populationdensity"  : 207,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Shivamogga.svg",
+        "coordinates": {
+            "longitude": 75.5681,
+            "latitude": 13.9299
+        }
+    },
+    {
+        "id" : 27,
+        "name" : "Tumakuru",
+        "population" : 2678980,
+        "sexratio" : 984,
+        "literacy" : 75.14,
+        "populationdensity"  : 253,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_Tumakuru.svg",
+        "coordinates": {
+            "longitude": 77.1173,
+            "latitude": 13.3379
+        }
+    },
+    {
+        "id" : 28,
+        "name" : "Udupi",
+        "population" : 1177361,
+        "sexratio" : 1094,
+        "literacy" : 86.24,
+        "populationdensity"  : 329,
+        "established" : "25 August 1997",
+        "imagename" : "Karnataka_Udupi.svg",
+        "coordinates": {
+            "longitude": 74.7421,
+            "latitude": 13.3409
+        }
+    },
+    {
+        "id" : 29,
+        "name" : "Uttara Kannada",
+        "population" : 1437169,
+        "sexratio" : 979,
+        "literacy" : 84.06,
+        "populationdensity"  : 140,
+        "established" : "1 November 1956",
+        "imagename" : "Karnataka_UttaraKannada.svg",
+        "coordinates": {
+            "longitude": 74.6869,
+            "latitude": 14.7937
+        }
+    },
+    {
+        "id" : 30,
+        "name" : "Yadgir",
+        "population" : 1174271,
+        "sexratio" : 989,
+        "literacy" : 51.83,
+        "populationdensity"  : 223,
+        "established" : "30 December 2009",
+        "imagename" : "Karnataka_Yadgir.svg",
+        "coordinates": {
+            "longitude": 77.1455,
+            "latitude": 16.7598
+        }
+    }
+]
