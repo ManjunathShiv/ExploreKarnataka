@@ -15,7 +15,7 @@ struct DistrictAccomodation : View {
     
     var body: some View {
         ZStack {
-            Color.accentColor
+            AngularGradient(gradient: Gradient(colors: [.orange, .blue, .green, .white]), center: .center, startAngle: .zero, endAngle: .degrees(360))
             .edgesIgnoringSafeArea(.all)
             
             VStack {

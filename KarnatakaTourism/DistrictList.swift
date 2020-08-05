@@ -15,26 +15,36 @@ struct DistrictList: View {
         UINavigationBar.appearance().barTintColor = .none
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.black]
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+        
     }
     
     var body: some View {
-        NavigationView {
-            VStack {
-                List {
-                    ForEach(myDistricts) { district in
-                            
-                            NavigationLink(
-                                destination: DistrictDetail(district: district)
-                            ) {
-                                districtRow(item: district)
-                            }
-                    }.cornerRadius(2.0)
-                    .shadow(radius: 10)
-                }
-                .navigationBarTitle(Text("Karnataka Districts"))
-            }
+        ZStack {
             
+            AngularGradient(gradient: Gradient(colors: [.orange, .blue, .green, .white]), center: .center, startAngle: .zero, endAngle: .degrees(360))
+            .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                
+                NavigationView {
+                    List {
+                        ForEach(myDistricts) { district in
+
+                                NavigationLink(
+                                    destination: DistrictDetail(district: district)
+                                ) {
+                                    districtRow(item: district)
+                                }.background(Color.clear)
+
+                        }.cornerRadius(2.0)
+                        .shadow(radius: 10)
+                    }.background(Color.clear)
+                    .navigationBarTitle(Text("Karnataka Districts"))
+                }
+                
+            }.background(Color.clear)
         }
+        
     }
 }
 

@@ -15,7 +15,7 @@ struct DistrictEmergency : View {
     
     var body: some View {
         ZStack {
-            Color.pink
+            AngularGradient(gradient: Gradient(colors: [.orange, .blue, .green, .white]), center: .center, startAngle: .zero, endAngle: .degrees(360))
             .edgesIgnoringSafeArea(.all)
             
             VStack {
