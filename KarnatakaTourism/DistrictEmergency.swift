@@ -1,21 +1,21 @@
 //
-//  DictrictAbout.swift
+//  DistrictEmergency.swift
 //  KarnatakaTourism
 //
-//  Created by Manjunath Shivakumara on 09/07/20.
+//  Created by Manjunath Shivakumara on 04/08/20.
 //  Copyright © 2020 Manjunath Shivakumara. All rights reserved.
 //
 
 import Foundation
 import SwiftUI
 
-struct DistrictAbout : View {
+struct DistrictEmergency : View {
     var district: District
     var text : String
     
     var body: some View {
         ZStack {
-            Color.purple
+            Color.pink
             .edgesIgnoringSafeArea(.all)
             
             VStack {
@@ -26,8 +26,8 @@ struct DistrictAbout : View {
     }
 }
 
-struct DistrictAbout_Preview: PreviewProvider {
+struct DistrictEmergency_Preview: PreviewProvider {
     static var previews: some View {
-        return DistrictAbout(district: myDistricts[0], text : "")
+        return DistrictEmergency(district: myDistricts[0], text : "")
     }
 }

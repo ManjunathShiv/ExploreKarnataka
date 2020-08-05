@@ -10,6 +10,11 @@
 		1913075023D5806800B037A1 /* DistrictDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913074F23D5806800B037A1 /* DistrictDetail.swift */; };
 		1913075423D581F000B037A1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913075223D581F000B037A1 /* CircleImage.swift */; };
 		1913075523D581F000B037A1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913075323D581F000B037A1 /* MapView.swift */; };
+		193811BE24D97AAC0066DF5A /* DistrictPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193811BD24D97AAC0066DF5A /* DistrictPlaces.swift */; };
+		193811C024D97B350066DF5A /* DistrictEmergency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193811BF24D97B350066DF5A /* DistrictEmergency.swift */; };
+		193811C224D97B630066DF5A /* DistrictHangout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193811C124D97B630066DF5A /* DistrictHangout.swift */; };
+		193811C424D97BE00066DF5A /* DistrictEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193811C324D97BE00066DF5A /* DistrictEvents.swift */; };
+		193811C624D97C1B0066DF5A /* DistrictAccomodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193811C524D97C1B0066DF5A /* DistrictAccomodation.swift */; };
 		193CDDFC239771A400CF135E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193CDDFB239771A400CF135E /* Constants.swift */; };
 		193CDDFE2397943600CF135E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193CDDFD2397943600CF135E /* SearchBar.swift */; };
 		1960404523713FEA00A5CE62 /* KarnatakaDistricts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1960404423713FEA00A5CE62 /* KarnatakaDistricts.json */; };
@@ -48,6 +53,11 @@
 		1913074F23D5806800B037A1 /* DistrictDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictDetail.swift; sourceTree = "<group>"; };
 		1913075223D581F000B037A1 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		1913075323D581F000B037A1 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		193811BD24D97AAC0066DF5A /* DistrictPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictPlaces.swift; sourceTree = "<group>"; };
+		193811BF24D97B350066DF5A /* DistrictEmergency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictEmergency.swift; sourceTree = "<group>"; };
+		193811C124D97B630066DF5A /* DistrictHangout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictHangout.swift; sourceTree = "<group>"; };
+		193811C324D97BE00066DF5A /* DistrictEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictEvents.swift; sourceTree = "<group>"; };
+		193811C524D97C1B0066DF5A /* DistrictAccomodation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictAccomodation.swift; sourceTree = "<group>"; };
 		193CDDFB239771A400CF135E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		193CDDFD2397943600CF135E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		1960404423713FEA00A5CE62 /* KarnatakaDistricts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KarnatakaDistricts.json; sourceTree = "<group>"; };
@@ -143,6 +153,11 @@
 				19EC2FA02362B00D00880AE9 /* DistrictList.swift */,
 				1913074F23D5806800B037A1 /* DistrictDetail.swift */,
 				1982310F24B7210A00E3E51D /* DictrictAbout.swift */,
+				193811BD24D97AAC0066DF5A /* DistrictPlaces.swift */,
+				193811BF24D97B350066DF5A /* DistrictEmergency.swift */,
+				193811C124D97B630066DF5A /* DistrictHangout.swift */,
+				193811C324D97BE00066DF5A /* DistrictEvents.swift */,
+				193811C524D97C1B0066DF5A /* DistrictAccomodation.swift */,
 				193CDDFB239771A400CF135E /* Constants.swift */,
 				19ABD37023D58BDB00E1B378 /* Model */,
 				1913075123D581E000B037A1 /* Utility */,
@@ -315,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				193CDDFE2397943600CF135E /* SearchBar.swift in Sources */,
+				193811C224D97B630066DF5A /* DistrictHangout.swift in Sources */,
 				19EC2F9A2362B00D00880AE9 /* AppDelegate.swift in Sources */,
 				19F0518A2371788A00D410BA /* District.swift in Sources */,
 				19EC2F9C2362B00D00880AE9 /* SceneDelegate.swift in Sources */,
@@ -323,7 +339,11 @@
 				1913075423D581F000B037A1 /* CircleImage.swift in Sources */,
 				19EC2FA12362B00D00880AE9 /* DistrictList.swift in Sources */,
 				1913075523D581F000B037A1 /* MapView.swift in Sources */,
+				193811C624D97C1B0066DF5A /* DistrictAccomodation.swift in Sources */,
+				193811C424D97BE00066DF5A /* DistrictEvents.swift in Sources */,
+				193811BE24D97AAC0066DF5A /* DistrictPlaces.swift in Sources */,
 				19EC2F9F2362B00D00880AE9 /* KarnatakaTourism.xcdatamodeld in Sources */,
+				193811C024D97B350066DF5A /* DistrictEmergency.swift in Sources */,
 				193CDDFC239771A400CF135E /* Constants.swift in Sources */,
 				1982311024B7210A00E3E51D /* DictrictAbout.swift in Sources */,
 			);

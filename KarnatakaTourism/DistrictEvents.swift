@@ -1,21 +1,21 @@
 //
-//  DictrictAbout.swift
+//  DistrictEvents.swift
 //  KarnatakaTourism
 //
-//  Created by Manjunath Shivakumara on 09/07/20.
+//  Created by Manjunath Shivakumara on 04/08/20.
 //  Copyright © 2020 Manjunath Shivakumara. All rights reserved.
 //
 
 import Foundation
 import SwiftUI
 
-struct DistrictAbout : View {
+struct DistrictEvents : View {
     var district: District
     var text : String
     
     var body: some View {
         ZStack {
-            Color.purple
+            Color.yellow
             .edgesIgnoringSafeArea(.all)
             
             VStack {
@@ -26,8 +26,8 @@ struct DistrictAbout : View {
     }
 }
 
-struct DistrictAbout_Preview: PreviewProvider {
+struct DistrictEvents_Preview: PreviewProvider {
     static var previews: some View {
-        return DistrictAbout(district: myDistricts[0], text : "")
+        return DistrictEvents(district: myDistricts[0], text : "")
     }
 }
