@@ -60,7 +60,10 @@ struct districtRow : View {
        HStack(alignment: .center, spacing: 10.0) {
             VStack(alignment: .leading) {
                 Image(item.imagename)
+                    .resizable()
+                    .frame(width: 100.0, height: 150.0, alignment: .center)
                 .clipped()
+                    .aspectRatio(contentMode: .fit)
             }
             VStack(alignment: .leading, spacing: 10.0){
                 Text(item.name)

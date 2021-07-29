@@ -407,6 +407,20 @@
     },
     {
         "id" : 30,
+        "name" : "Vijayanagara",
+        "population" : 1353628,
+        "sexratio" : 0,
+        "literacy" : 0.0,
+        "populationdensity"  : 240,
+        "established" : "18 November 2020",
+        "imagename" : "Karnataka_UttaraKannada.svg",
+        "coordinates": {
+            "longitude": 74.6869,
+            "latitude": 14.7937
+        }
+    },
+    {
+        "id" : 31,
         "name" : "Yadgir",
         "population" : 1174271,
         "sexratio" : 989,

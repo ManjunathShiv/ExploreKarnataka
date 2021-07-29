@@ -23,12 +23,12 @@ struct DistrictDetail: View {
             VStack() {
                     MapView(coordinate: district.locationCoordinate)
                     .edgesIgnoringSafeArea(.top)
-                    .frame(height:300)
+                        .frame(height:UIScreen.screenHeight/2.0)
                     .background(Color.clear)
                 
                 CircleImage(image: Image(district.imagename))
-                    .offset(x: 0, y: -130)
-                    .padding(.bottom, -130)
+                    .offset(x: 0, y: -200.0)
+                    .padding(.bottom, -200.0)
                 
                 Text(verbatim: district.name)
                     .font(.title)
@@ -98,6 +98,7 @@ struct DistrictDetail: View {
                     }
                 }.padding(.leading, 10.0)
                 .padding(.trailing, 10.0)
+                .padding(.bottom, 10.0)
             }
         }
     }
@@ -107,6 +108,15 @@ struct DistrictDetail: View {
 
 struct DistrictDetail_Preview: PreviewProvider {
     static var previews: some View {
-        return DistrictDetail(district: myDistricts[0])
+        return Group {
+            DistrictDetail(district: myDistricts[0])
+            DistrictDetail(district: myDistricts[0])
+        }
     }
+}
+
+extension UIScreen{
+   static let screenWidth = UIScreen.main.bounds.size.width
+   static let screenHeight = UIScreen.main.bounds.size.height
+   static let screenSize = UIScreen.main.bounds.size
 }
