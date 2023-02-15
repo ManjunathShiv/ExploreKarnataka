@@ -16,33 +16,33 @@ struct DistrictList: View {
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.black]
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.black]
         
+        UITableView.appearance().backgroundColor = .clear
     }
     
     var body: some View {
-        ZStack {
-            
-            AngularGradient(gradient: Gradient(colors: [.orange, .blue, .green, .white]), center: .center, startAngle: .zero, endAngle: .degrees(360))
-            .edgesIgnoringSafeArea(.all)
-            
-            VStack {
+        NavigationView {
+            ZStack() {
+                LinearGradient(colors: [.yellow, .red], startPoint: .topLeading, endPoint: .bottomTrailing)
+                    .edgesIgnoringSafeArea(.all)
                 
-                NavigationView {
-                    List {
-                        ForEach(myDistricts) { district in
-
-                                NavigationLink(
-                                    destination: DistrictDetail(district: district)
-                                ) {
-                                    districtRow(item: district)
-                                }.background(Color.clear)
-
-                        }.cornerRadius(2.0)
+                List {
+                    ForEach(myDistricts) { district in
+                        
+                        NavigationLink(
+                            destination: DistrictDetail(district: district)
+                        ) {
+                            districtRow(item: district)
+                        }
+                        .background(Color.clear)
+                        .padding(.bottom)
+                        .padding(.top)
+                        .tint(.black)
+                    }.cornerRadius(2.0)
                         .shadow(radius: 10)
-                    }.background(Color.clear)
-                    .navigationBarTitle(Text("Karnataka Districts"))
+                        .listRowBackground(Color.clear)
                 }
-                
-            }.background(Color.clear)
+            }
+            .navigationBarTitle("Karnataka District")
         }
         
     }
@@ -62,25 +62,32 @@ struct districtRow : View {
                 Image(item.imagename)
                     .resizable()
                     .frame(width: 100.0, height: 150.0, alignment: .center)
-                .clipped()
+                    .clipped()
                     .aspectRatio(contentMode: .fit)
             }
             VStack(alignment: .leading, spacing: 10.0){
                 Text(item.name)
                     .font(.headline)
                     .foregroundColor(.primary)
+                    .fontWeight(.bold)
                 Text(item.established)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
+                    .fontWeight(.semibold)
                 Text("Literacy : \(item.literacy)")
                     .font(.footnote)
+                    .fontWeight(.semibold)
                 Text("Sex Ratio : \(item.sexratio)")
                     .font(.footnote)
+                    .fontWeight(.semibold)
                 Text("Population : \(item.population)")
-                .font(.footnote)
+                    .font(.footnote)
+                    .fontWeight(.semibold)
                 Text("Population Density : \(item.populationdensity)")
-                .font(.footnote)
-            }.padding(.init(top: 0.0, leading: 10.0, bottom: 0.0, trailing: 0.0))
+                    .font(.footnote)
+                    .fontWeight(.semibold)
+            }
+            .padding()
        }
     }
 }

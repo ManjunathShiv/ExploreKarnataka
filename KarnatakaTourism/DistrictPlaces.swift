@@ -15,8 +15,8 @@ struct DistrictPlaces : View {
     
     var body: some View {
         ZStack {
-            AngularGradient(gradient: Gradient(colors: [.orange, .blue, .green, .white]), center: .center, startAngle: .zero, endAngle: .degrees(360))
-            .edgesIgnoringSafeArea(.all)
+            LinearGradient(colors: [.yellow, .red], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .edgesIgnoringSafeArea(.all)
             
             VStack {
                 Text("")

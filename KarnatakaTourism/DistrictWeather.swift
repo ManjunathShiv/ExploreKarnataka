@@ -1,5 +1,5 @@
 //
-//  DistrictAccomodation.swift
+//  DistrictWeather.swift
 //  KarnatakaTourism
 //
 //  Created by Manjunath Shivakumara on 04/08/20.
@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-struct DistrictAccomodation : View {
+struct DistrictWeather : View {
     var district: District
     var text : String
     
@@ -26,8 +26,8 @@ struct DistrictAccomodation : View {
     }
 }
 
-struct DistrictAccomodation_Preview: PreviewProvider {
+struct DistrictWeather_Preview: PreviewProvider {
     static var previews: some View {
-        return DistrictAccomodation(district: myDistricts[0], text : "")
+        return DistrictWeather(district: myDistricts[0], text : "")
     }
 }

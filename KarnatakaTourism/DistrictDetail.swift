@@ -10,21 +10,26 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-var myDistrictInfo:[String] = ["About", "Places to visit", "Emergency Contact", "Hangout Places", "Events Happening", "Accomodation"]
+struct myDistOptions : Identifiable {
+    let id = UUID()
+    let optionName : String
+}
+
 
 struct DistrictDetail: View {
     var district: District
     
     var body: some View {
         ZStack(alignment: .top) {
-            AngularGradient(gradient: Gradient(colors: [.orange, .blue, .green, .white]), center: .center, startAngle: .zero, endAngle: .degrees(360))
+            LinearGradient(colors: [.yellow, .red], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .edgesIgnoringSafeArea(.all)
- 
-            VStack() {
-                    MapView(coordinate: district.locationCoordinate)
+            
+            VStack(spacing: 10) {
+                MapView(coordinate: district.locationCoordinate)
                     .edgesIgnoringSafeArea(.top)
-                        .frame(height:UIScreen.screenHeight/2.0)
+                    .frame(height:UIScreen.screenHeight/2.0)
                     .background(Color.clear)
+                    
                 
                 CircleImage(image: Image(district.imagename))
                     .offset(x: 0, y: -200.0)
@@ -32,16 +37,17 @@ struct DistrictDetail: View {
                 
                 Text(verbatim: district.name)
                     .font(.title)
-                    .foregroundColor(Color.white)
+                    .foregroundColor(Color.black)
+                
                 Text(verbatim: district.established)
                     .font(.subheadline)
-                    .foregroundColor(Color.white)
+                    .foregroundColor(Color.black)
                     .padding(.bottom, 10.0)
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
-                        NavigationLink(destination: DistrictAbout(district: self.district, text: myDistrictInfo[0])) {
-                            Text("\(myDistrictInfo[0])")
+                        NavigationLink(destination: DistrictAbout(district: self.district, text: "About")) {
+                            Text("\("About")")
                                 .frame(width:100, height: 100)
                                 .background(Color.green)
                                 .multilineTextAlignment(.center)
@@ -49,8 +55,8 @@ struct DistrictDetail: View {
                                 .foregroundColor(.white)
                         }
                         
-                        NavigationLink(destination: DistrictPlaces(district: self.district, text: myDistrictInfo[1])) {
-                            Text("\(myDistrictInfo[1])")
+                        NavigationLink(destination: DistrictPlaces(district: self.district, text: "Places to visit")) {
+                            Text("\("Places to visit")")
                                 .frame(width:100, height: 100)
                                 .background(Color.green)
                                 .multilineTextAlignment(.center)
@@ -58,8 +64,8 @@ struct DistrictDetail: View {
                                 .foregroundColor(.white)
                         }
                         
-                        NavigationLink(destination: DistrictEmergency(district: self.district, text: myDistrictInfo[2])) {
-                            Text("\(myDistrictInfo[2])")
+                        NavigationLink(destination: DistrictEmergency(district: self.district, text: "Emergency Contact")) {
+                            Text("\("Emergency Contact")")
                                 .frame(width:100, height: 100)
                                 .background(Color.green)
                                 .multilineTextAlignment(.center)
@@ -67,8 +73,8 @@ struct DistrictDetail: View {
                                 .foregroundColor(.white)
                         }
                         
-                        NavigationLink(destination: DistrictHangout(district: self.district, text: myDistrictInfo[3])) {
-                            Text("\(myDistrictInfo[3])")
+                        NavigationLink(destination: DistrictHangout(district: self.district, text: "Hangout Places")) {
+                            Text("\("Hangout Places")")
                                 .frame(width:100, height: 100)
                                 .background(Color.green)
                                 .multilineTextAlignment(.center)
@@ -76,8 +82,8 @@ struct DistrictDetail: View {
                                 .foregroundColor(.white)
                         }
                         
-                        NavigationLink(destination: DistrictEvents(district: self.district, text: myDistrictInfo[4])) {
-                            Text("\(myDistrictInfo[4])")
+                        NavigationLink(destination: DistrictEvents(district: self.district, text: "Events Happening")) {
+                            Text("\("Events Happening")")
                                 .frame(width:100, height: 100)
                                 .background(Color.green)
                                 .multilineTextAlignment(.center)
@@ -85,20 +91,17 @@ struct DistrictDetail: View {
                                 .foregroundColor(.white)
                         }
                         
-                        NavigationLink(destination: DistrictAccomodation(district: self.district, text: myDistrictInfo[5])) {
-                            Text("\(myDistrictInfo[5])")
+                        NavigationLink(destination: DistrictWeather(district: self.district, text: "Weather")) {
+                            Text("\("Weather")")
                                 .frame(width:100, height: 100)
                                 .background(Color.green)
                                 .multilineTextAlignment(.center)
                                 .cornerRadius(40.0)
                                 .foregroundColor(.white)
                         }
-                        
-                        
                     }
-                }.padding(.leading, 10.0)
-                .padding(.trailing, 10.0)
-                .padding(.bottom, 10.0)
+                    .padding(10)
+                }
             }
         }
     }
@@ -109,7 +112,6 @@ struct DistrictDetail: View {
 struct DistrictDetail_Preview: PreviewProvider {
     static var previews: some View {
         return Group {
-            DistrictDetail(district: myDistricts[0])
             DistrictDetail(district: myDistricts[0])
         }
     }
